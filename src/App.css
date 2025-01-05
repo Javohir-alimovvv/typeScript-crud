@@ -1,0 +1,271 @@
+.container {
+  max-width: 1280px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0px 16px;
+}
+
+.header__big {
+  width: 100%;
+  height: 70px;
+  background: #000000a1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  color: white;
+  font-size: 28px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.header__logo:hover {
+  color: dodgerblue;
+  transition: .3s;
+}
+
+.header__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
+
+.header__content__item {
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  list-style-type: none;
+  transition: .3s;
+}
+
+.header__content__item:hover {
+  color: dodgerblue;
+  transition: .3s;
+}
+
+.form {
+  width: 40%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 16px;
+  gap: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 16px;
+  margin-bottom: 40px;
+}
+
+.form__input {
+  width: 100%;
+  height: 38px;
+  border-radius: 12px;
+  border: 1px solid gray;
+  color: gray;
+  outline: none;
+  padding: 0px 16px;
+  font-size: 18px;
+}
+
+.form__btn {
+  width: 100%;
+  height: 40px;
+  border-radius: 12px;
+  color: white;
+  background: green;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.form__btn:hover {
+  background: none;
+  border-color: green;
+  color: green;
+  transition: .3s;
+}
+
+.menu {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.menu__top {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.menu__top__left__text {
+  font-size: 24px;
+  color: dodgerblue;
+}
+
+.menu__top__right__text {
+  color: black;
+  font-size: 18px;
+}
+
+.menu__map {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.menu__map__card {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  padding: 16px;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  gap: 18px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.menu__map__card__box {
+  width: 100%;
+  height: 260px;
+  border-radius: 12px;
+  background: black;
+}
+
+.menu__map__card__box__img {
+  width: 80%;
+  height: auto;
+}
+
+.menu__map__card__group__center {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+
+.menu__map__card__group__center__title {
+  font-size: 18px;
+  color: black;
+}
+
+.menu__map__card__group__center__price {
+  font-size: 18px;
+  color: red;
+}
+
+.menu__map__card__desc {
+  width: 100%;
+  height: auto;
+  font-size: 16px;
+  color: gray;
+  padding: 0px 20px;
+}
+
+.menu__map__card__group__bottom {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+
+.menu__map__card__group__bottom__ulcham {
+  font-size: 16px;
+  color: #02fa02;
+}
+
+.menu__map__card__group__bottom__add {
+  width: 50px;
+  height: 38px;
+  font-size: 16px;
+  color: white;
+  background: #02fa02;
+  border: 1px solid transparent;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: .3s;
+}
+
+.menu__map__card__group__bottom__add:hover {
+  background: none;
+  border-color: #02fa02;
+  color: #02fa02;
+  transition: .2s;
+}
+
+.menu__map__card__btn__gr {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+
+.menu__map__card__btn__gr__del {
+  width: 130px;
+  height: 40px;
+  border-radius: 5px;
+  background: red;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: .3s;
+  border: 1px solid transparent;
+}
+
+.menu__map__card__btn__gr__del:hover {
+  background: none;
+  border-color: red;
+  color: red;
+  transition: .2s;
+}
+
+.menu__map__card__btn__gr__ed {
+  width: 130px;
+  height: 40px;
+  border-radius: 5px;
+  background: gold;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: .3s;
+  border: 1px solid transparent;
+}
+
+.menu__map__card__btn__gr__ed:hover {
+  background: none;
+  border-color: gold;
+  color: gold;
+  transition: .2s;
+}
