@@ -110,6 +110,7 @@
   justify-content: center;
   flex-direction: column;
   gap: 30px;
+  margin-bottom: 80px;
 }
 
 .menu__top {
@@ -156,12 +157,15 @@
   width: 100%;
   height: 260px;
   border-radius: 12px;
-  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .menu__map__card__box__img {
-  width: 80%;
+  width: 100%;
   height: auto;
+  border-radius: 12px;
 }
 
 .menu__map__card__group__center {
